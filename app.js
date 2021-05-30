@@ -11,5 +11,4 @@ app.get("../public/authentication.js", function (req, res) {
 })
 
 // start the server listening for requests
-app.listen(process.env.PORT || 8000, 
-	() => console.log("Server is running..."));
+app.listen(3000, () => console.log('Local app listening on port 3000!'));
