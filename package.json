@@ -2,9 +2,10 @@
   "name": "gmail-clone",
   "version": "1.0.0",
   "description": "Build command to run this file in your local machine npm install node app.js",
-  "main": "index.js",
+  "main": "functions/server.js",
   "scripts": {
-    "build": "node app.js"
+    "build": "netlify-lambda build express",
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.17.1"
