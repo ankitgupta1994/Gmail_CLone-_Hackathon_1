@@ -4,7 +4,7 @@
   "description": "Build command to run this file in your local machine npm install node app.js",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "build": "node app.js"
   },
   "dependencies": {
     "express": "^4.17.1"
