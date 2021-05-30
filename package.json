@@ -4,18 +4,14 @@
   "description": "Build command to run this file in your local machine npm install node app.js",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
     "start": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "netlify-lambda": "^1.6.3",
-    "nodemon": "^1.19.2",
-    "serverless-http": "^2.3.0"
+    "nodemon": "^1.19.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
